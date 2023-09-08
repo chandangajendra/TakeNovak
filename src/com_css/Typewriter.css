@@ -1,0 +1,40 @@
+.typewriter {
+    font-size: 18px;
+    font-family: 'Mukta', sans-serif;
+    /* if updating the font size then you also need to update font size of cursor */
+    color: aliceblue;
+    background-color: rgb(62, 66, 74);
+    width: 70%;
+    margin: 10px auto;
+    overflow: hidden;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.cursor {
+    display: inline-block;
+    font-size: 18px;
+    /* if updating the font size then you also need to update font size of cursor */
+    animation: blink-caret 0.75s step-end infinite;
+}
+
+@keyframes blink-caret {
+
+    from,
+    to {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+    }
+}
+
+
+.dynamic-text {
+    font-size: 20px;
+    background-color: aquamarine;
+}

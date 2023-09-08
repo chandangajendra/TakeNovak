@@ -1,0 +1,32 @@
+.image-left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 47%;
+    /* just for now  otherwise width : 100%*/
+    height: 90vh;
+    background-color: rgb(58 65 82);
+    position: absolute;
+    left: 9px;
+}
+
+.image-left img {
+    height: 79vh;
+    width: 59%;
+    margin: 18px 0px;
+}
+
+
+@media screen and (max-width: 390px) {
+    .image-left img {
+        height: 54vh;
+        width: 74%;
+    }
+
+    .image-left {
+        width: 47%;
+        left: 0;
+        height: 90vh;
+    }
+
+}
